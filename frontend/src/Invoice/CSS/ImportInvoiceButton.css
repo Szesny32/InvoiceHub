@@ -1,0 +1,31 @@
+.button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .upload-button {
+    width: 60px;
+    height: 60px;
+    background-color: #0f6122; /* Zielony */
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .upload-button:hover {
+    background-color: #218838; /* Trochę ciemniejszy zielony */
+  }
+  
+  .button-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
